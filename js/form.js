@@ -46,9 +46,13 @@ class Form{
 
         this.reset.mousePressed(() => {
            //make the gameState & playerCount nodes to 0 in the database
+           player.updateCount(0);
+      game.update(0);
             
 
            //remove the player from the database
+           let playerInfoRef = database.ref('players')
+           playerInfoRef.remove()
             
             
         });

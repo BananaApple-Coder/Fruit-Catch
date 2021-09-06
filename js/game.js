@@ -58,7 +58,8 @@ class Game{
                      if(index === player.index){
                         fill("red") 
                         textSize(20)
-                       //add code to display the player's name on the respective basket.
+                        textAlign(CENTER)
+                       text(player.name, players[index-1].x, players[index-1].y+ 30)
                         
                          
                      }

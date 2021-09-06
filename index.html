@@ -6,20 +6,36 @@
   <script src="libraries/matter.js"></script>
   <script src="libraries/p5.play.js"></script>
 
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+// Your web app's Firebase configuration
+const firebaseConfig = {
+      apiKey: "AIzaSyBfBkQfbH7_ZCr8V_nmo-Lxs9WEY-CjWgw",
+      authDomain: "fruit-catch-444ab.firebaseapp.com",
+      databaseURL: "https://fruit-catch-444ab-default-rtdb.firebaseio.com",
+      projectId: "fruit-catch-444ab",
+      storageBucket: "fruit-catch-444ab.appspot.com",
+      messagingSenderId: "69235134976",
+      appId: "1:69235134976:web:a9379aa6b75102617dfee5"
+    };
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+
   <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
   <!-- Link game.js and player.js -->
 
 
-
-  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
-
-
-  <script>
-  // Your web app's Firebase configuration
-
-
-  </script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
